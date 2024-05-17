@@ -10,7 +10,9 @@ var blockVar = "I'm a block-scoped var";
 let blockLet = "I'm a block-scoped let";
 const blockConst = "I'm a block-scoped const";
 }
-
+//Block Scope
+//console.log(blockVar);
+//console.log(blockLet);
 function show(){
     var functionVar = "I'm a block-scoped var";
     let functionLet = "I'm a block-scoped let";
